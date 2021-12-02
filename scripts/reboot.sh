@@ -12,6 +12,7 @@ date +"Перезагрузка = $i в %H:%M"
 sleep 5s
 date +"Reboot $i at %H:%M" >> file.txt
 adb shell dumpsys battery | grep level
+adb shell dumpsys battery | grep level >> file.txt
 adb shell reboot
 
 sleep 2m  
