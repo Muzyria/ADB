@@ -24,13 +24,13 @@ sleep 1s
 var1=$[ $var1 - 1 ]
 
 done
-echo -ne "Complite                     "
+echo -ne "Finished                     "
 echo -ne '\n'
 echo ""
 sleep 3s
 
 done
 
-echo "Complite $i"
+echo "Finished $i"
 sleep 3
 #finish +++

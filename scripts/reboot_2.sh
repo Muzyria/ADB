@@ -30,5 +30,5 @@ echo ""
 sleep 3s
 done
 
-echo "Complite $i"
+echo "Finished $i"
 sleep 3
